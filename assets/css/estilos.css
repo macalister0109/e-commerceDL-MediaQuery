@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: #e5c0d9;
+}
+
+
+@media screen and (max-width: 576px){
+    .grid-container{
+        height: 100vh;
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr;
+        gap: 0px;    
+        grid-template-areas: 
+        "hd "
+        "ct"
+        "ft";
+    }    
+}
